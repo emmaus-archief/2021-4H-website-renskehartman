@@ -26,7 +26,7 @@ article {
 header {
     color: black;
     text-align: center;
-    font-family: monospace ;
+    font-family:Brush Script;
 }
 
 
@@ -91,12 +91,12 @@ nav li a:hover {
 }
 
 #plaatje1 { height:190px;
-padding: 6px; border:double 4px black;
+padding: 6px; border:double 5px black;
 }
 
 #plaatje2 { height:175px;
  float:right; margin-left: 25px;
- padding: 6px; border:double 4px black;
+ padding: 6px; border:double 5px black;
 }
 
 nav li a.active {
@@ -104,7 +104,9 @@ nav li a.active {
     text-color:white;
 }
 
-
+.trailer {background-color:white;
+font-family: fantasy;
+}
 
 
 
