@@ -40,7 +40,7 @@ footer {
 /* specifieke stijlen */
 
 img.zweefLinks {
-    float:left;
+    float: left;
     margin-right: 25px;
     margin-bottom: 20px;
     height:175px;
@@ -70,7 +70,7 @@ nav ul {
     padding:7px;
     background-color:white;
     overflow:hidden;
-    
+    border-radius: 25px ;
 }
 
 nav ul li {
@@ -82,12 +82,14 @@ nav li a {
     display:block;
     color: rgb(0, 0, 0);
     text-align:left;
-    padding: 14px 16px;
+    padding: 15px 40px;
     text-decoration:none;
+     border-radius: 25px ;
 }
 
 nav li a:hover {
-    background-color:plum;
+    background-color:rgb(199, 243, 210);
+   
 }
 
 #plaatje1 { height:190px;
@@ -98,6 +100,9 @@ padding: 6px; border:double 5px black;
  float:right; margin-left: 25px;
  padding: 6px; border:double 5px black;
 }
+
+#plaatje3 { float:left;
+margin-right: 600px }
 
 nav li a.active {
     background-color:rgba(162, 205, 255, 0.788);
