@@ -72,12 +72,10 @@ nav ul {
     overflow:hidden;
     border-radius: 25px ;
     border: 2px dotted; 
-    
 }
 
 nav ul li {
     float:left; 
-
 }
 
 nav li a {
@@ -86,14 +84,14 @@ nav li a {
     text-align:left;
     padding: 15px 40px;
     text-decoration:none;
-   border-radius: 25px ;
+    border-radius: 25px ;
 }
 
 nav li a:hover {
     background-color:rgb(199, 243, 210);
    
 }
-
+ 
 #plaatje1 { height:190px;
 padding: 6px; border:double 5px black;
 }
@@ -117,6 +115,10 @@ height:40px; width: 700px;
 #plaatje5 {float:right;
 margin-top:30px; margin-left:63px}
 
+#personagesplaatjes { float: left;
+height:100px ;  border-radius: 50px ;
+border:solid 6px white; 
+}
 
 nav li a.active {
     background-color:rgba(162, 205, 255, 0.788);
@@ -124,13 +126,14 @@ nav li a.active {
 }
 
 .trailer {background-color:white;
-font-family: fantasy;
+font-family: monospace;
+border-radius: 25px ;
 }
 
 #personages { background-color: black ;
-color: rgb(255, 255, 255);
- border-radius: 40px ;
-  }
+color:white;
+border-radius: 40px ;
+ }
 
 
 
